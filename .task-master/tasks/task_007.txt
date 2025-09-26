@@ -1,0 +1,15 @@
+# Task ID: 7
+# Title: Implement encryption for sensitive credentials
+# Status: pending
+# Dependencies: 1 ⏱️
+# Priority: high
+# Description: Create utility for encrypting and decrypting sensitive WhatsApp credentials
+# Details:
+Implement encryption utilities for:
+- Twilio auth tokens
+- Webhook tokens
+
+Use AES-256 encryption with tenant-specific keys. Implement secure key storage and retrieval.
+
+# Test Strategy:
+Test encryption and decryption with various inputs. Verify encrypted values can be decrypted correctly.

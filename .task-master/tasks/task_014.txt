@@ -1,0 +1,15 @@
+# Task ID: 14
+# Title: Create proxy API routes for WhatsApp logs
+# Status: pending
+# Dependencies: None
+# Priority: medium
+# Description: Implement Next.js API routes to proxy WhatsApp log requests
+# Details:
+Create the following proxy routes:
+- src/pages/api/proxy/whats-app-logs/index.ts
+- src/pages/api/proxy/whats-app-logs/[...slug].ts
+
+Use the createProxyHandler utility to forward requests to backend API.
+
+# Test Strategy:
+Test proxy routes with various requests. Verify requests are correctly forwarded to backend API.

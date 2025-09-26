@@ -1,0 +1,18 @@
+# Task ID: 10
+# Title: Create WhatsApp settings page components
+# Status: pending
+# Dependencies: 9 ⏱️
+# Priority: medium
+# Description: Implement React components for WhatsApp settings management
+# Details:
+Create the following components:
+- WhatsAppSettingsForm.tsx
+- TwilioCredentialsSection.tsx
+- WebhookConfiguration.tsx
+- TestConnection.tsx
+- MessageTemplatesManager.tsx
+
+Place them in the admin/whatsapp-settings directory.
+
+# Test Strategy:
+Test components with various input scenarios. Verify form validation works correctly.

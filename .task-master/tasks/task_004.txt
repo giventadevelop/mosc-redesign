@@ -1,0 +1,16 @@
+# Task ID: 4
+# Title: Create WhatsApp message endpoints
+# Status: pending
+# Dependencies: 3 ⏱️
+# Priority: high
+# Description: Implement REST endpoints for sending WhatsApp messages
+# Details:
+Create REST controllers for the following endpoints:
+- POST /api/whatsapp/send-message
+- POST /api/whatsapp/send-bulk
+- GET /api/whatsapp/delivery-status/{messageId}
+
+Ensure proper request validation, error handling, and tenant isolation.
+
+# Test Strategy:
+Test each endpoint with valid and invalid requests. Verify tenant isolation works correctly.

@@ -1,0 +1,15 @@
+# Task ID: 16
+# Title: Implement WhatsApp settings server actions
+# Status: pending
+# Dependencies: 10 ⏱️, 14 ⏱️, 15 ⏱️
+# Priority: medium
+# Description: Create server actions for WhatsApp settings management
+# Details:
+Create src/app/admin/whatsapp-settings/ApiServerActions.ts with:
+- updateWhatsAppSettingsServer function
+- testWhatsAppConnectionServer function
+
+Ensure proper error handling and tenant ID inclusion.
+
+# Test Strategy:
+Test server actions with valid and invalid inputs. Verify tenant ID is correctly included in requests.

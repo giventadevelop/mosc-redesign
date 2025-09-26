@@ -1,0 +1,18 @@
+# Task ID: 12
+# Title: Create bulk messaging interface components
+# Status: pending
+# Dependencies: 9 ⏱️
+# Priority: medium
+# Description: Implement components for sending bulk WhatsApp messages
+# Details:
+Create the following components in admin/whatsapp/bulk-messaging:
+- BulkMessageComposer.tsx
+- RecipientSelector.tsx
+- MessagePreview.tsx
+- SendingProgress.tsx
+- DeliveryReport.tsx
+
+Ensure components work together for a complete bulk messaging workflow.
+
+# Test Strategy:
+Test the complete bulk messaging workflow with various recipient counts and message types.

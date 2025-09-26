@@ -1,0 +1,17 @@
+# Task ID: 6
+# Title: Implement WhatsApp webhook handler
+# Status: pending
+# Dependencies: 3 ⏱️
+# Priority: high
+# Description: Create webhook endpoint for receiving Twilio delivery receipts
+# Details:
+Implement webhook handler at POST /api/whatsapp/webhook that:
+- Verifies Twilio webhook signatures
+- Processes delivery status updates
+- Updates whatsapp_log table
+- Triggers any follow-up actions
+
+Implement security measures like rate limiting and logging.
+
+# Test Strategy:
+Test webhook with sample Twilio payloads. Verify signature validation works and status updates are processed correctly.

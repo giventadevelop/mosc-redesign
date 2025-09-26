@@ -1,0 +1,18 @@
+# Task ID: 22
+# Title: Create documentation for WhatsApp integration
+# Status: pending
+# Dependencies: 21 ⏱️
+# Priority: low
+# Description: Document WhatsApp integration features and usage
+# Details:
+Create documentation for:
+- Setting up Twilio account
+- Configuring WhatsApp integration
+- Creating and using templates
+- Sending bulk messages
+- Understanding analytics
+
+Include screenshots and examples.
+
+# Test Strategy:
+Review documentation for completeness and accuracy. Verify examples work as described.

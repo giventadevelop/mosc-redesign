@@ -1,0 +1,18 @@
+# Task ID: 9
+# Title: Create WhatsApp type definitions
+# Status: pending
+# Dependencies: None
+# Priority: medium
+# Description: Define TypeScript interfaces for WhatsApp integration
+# Details:
+Add the following interfaces to types/index.ts:
+- TwilioCredentials
+- WhatsAppMessageRequest
+- BulkWhatsAppRequest
+- MessageTemplate
+- WhatsAppAnalytics
+
+Ensure types match backend data structures.
+
+# Test Strategy:
+Verify type definitions are comprehensive and correctly represent the data structures used in the application.

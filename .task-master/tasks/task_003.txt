@@ -1,0 +1,20 @@
+# Task ID: 3
+# Title: Implement TwilioWhatsAppService
+# Status: pending
+# Dependencies: 2 ⏱️
+# Priority: high
+# Description: Create a service layer to handle Twilio WhatsApp API interactions
+# Details:
+Implement TwilioWhatsAppService with the following methods:
+- sendMessage(tenantId, request)
+- sendBulkMessages(tenantId, request)
+- checkDeliveryStatus(tenantId, messageId)
+- getApprovedTemplates(tenantId)
+- createTemplate(tenantId, request)
+- handleWebhook(tenantId, payload)
+- getTenantCredentials(tenantId) (private)
+- encryptAndStoreCredentials(tenantId, credentials) (private)
+- logMessage(logEntry) (private)
+
+# Test Strategy:
+Unit test each method with mock Twilio responses. Test credential retrieval and encryption functionality.

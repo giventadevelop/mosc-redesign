@@ -1,0 +1,17 @@
+# Task ID: 18
+# Title: Implement connection testing functionality
+# Status: pending
+# Dependencies: 3 ⏱️, 16 ⏱️
+# Priority: low
+# Description: Create utility to test Twilio WhatsApp connection
+# Details:
+Implement test connection functionality that:
+- Validates Twilio credentials
+- Sends a test message to a specified number
+- Verifies webhook configuration
+- Returns detailed connection status
+
+Connect this to the TestConnection component.
+
+# Test Strategy:
+Test connection utility with valid and invalid credentials. Verify detailed error reporting works correctly.

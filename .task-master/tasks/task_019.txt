@@ -1,0 +1,17 @@
+# Task ID: 19
+# Title: Create WhatsApp message templates UI
+# Status: pending
+# Dependencies: 5 ⏱️, 10 ⏱️
+# Priority: low
+# Description: Implement interface for managing WhatsApp message templates
+# Details:
+Enhance MessageTemplatesManager.tsx to:
+- List existing templates
+- Create new templates
+- Preview templates with sample data
+- Show template approval status
+
+Connect to template management API endpoints.
+
+# Test Strategy:
+Test template creation and management workflow. Verify templates can be previewed correctly.

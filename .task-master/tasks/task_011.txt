@@ -1,0 +1,17 @@
+# Task ID: 11
+# Title: Enhance tenant settings form with WhatsApp section
+# Status: pending
+# Dependencies: 10 ⏱️
+# Priority: medium
+# Description: Update existing tenant settings form to include expanded WhatsApp configuration
+# Details:
+Expand the WhatsApp section in TenantSettingsForm.tsx to include:
+- Toggle for enabling WhatsApp
+- Twilio credentials section
+- Webhook configuration
+- Test connection button
+
+Ensure conditional rendering based on enableWhatsappIntegration flag.
+
+# Test Strategy:
+Test form with different combinations of settings. Verify conditional rendering works correctly.

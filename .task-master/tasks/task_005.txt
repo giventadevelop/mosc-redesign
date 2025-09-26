@@ -1,0 +1,15 @@
+# Task ID: 5
+# Title: Implement message template management endpoints
+# Status: pending
+# Dependencies: 3 ⏱️
+# Priority: medium
+# Description: Create API endpoints for WhatsApp message templates
+# Details:
+Implement REST endpoints for template management:
+- GET /api/whatsapp/templates
+- POST /api/whatsapp/templates
+
+Ensure templates are stored with proper validation and tenant isolation.
+
+# Test Strategy:
+Test template creation and retrieval. Verify templates are properly associated with tenants.

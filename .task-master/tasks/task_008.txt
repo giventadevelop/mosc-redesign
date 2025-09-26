@@ -1,0 +1,19 @@
+# Task ID: 8
+# Title: Add environment variables for Twilio configuration
+# Status: pending
+# Dependencies: None
+# Priority: medium
+# Description: Set up environment variables for Twilio defaults and encryption keys
+# Details:
+Add the following environment variables:
+- TWILIO_ACCOUNT_SID
+- TWILIO_AUTH_TOKEN
+- TWILIO_WHATSAPP_FROM
+- TWILIO_ENCRYPTION_KEY
+- WEBHOOK_ENCRYPTION_KEY
+- WHATSAPP_WEBHOOK_BASE_URL
+
+Update configuration loaders to use these variables.
+
+# Test Strategy:
+Verify environment variables are correctly loaded and used as defaults when tenant-specific values are not provided.

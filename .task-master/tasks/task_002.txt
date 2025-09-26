@@ -1,0 +1,18 @@
+# Task ID: 2
+# Title: Update TenantSettingsDTO schema
+# Status: pending
+# Dependencies: 1 ⏱️
+# Priority: high
+# Description: Extend the TenantSettingsDTO to include new Twilio WhatsApp fields
+# Details:
+Add the following fields to TenantSettingsDTO:
+- twilioAccountSid (string, max 255)
+- twilioAuthToken (string, max 500)
+- twilioWhatsappFrom (string, max 50)
+- whatsappWebhookUrl (string, max 500)
+- whatsappWebhookToken (string, max 255)
+
+Ensure validation constraints match database schema.
+
+# Test Strategy:
+Validate that the DTO can serialize and deserialize with the new fields correctly.

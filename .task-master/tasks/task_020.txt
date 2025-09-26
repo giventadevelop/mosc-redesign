@@ -1,0 +1,17 @@
+# Task ID: 20
+# Title: Implement WhatsApp analytics data fetching
+# Status: pending
+# Dependencies: 13 ⏱️
+# Priority: low
+# Description: Create service for fetching and processing WhatsApp analytics data
+# Details:
+Implement data fetching for WhatsApp analytics:
+- Message counts by status
+- Delivery and read rates
+- Time-based metrics
+- Template performance
+
+Connect this to the WhatsAppAnalytics component.
+
+# Test Strategy:
+Test analytics service with sample data. Verify metrics are calculated correctly.
