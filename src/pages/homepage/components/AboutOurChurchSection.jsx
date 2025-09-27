@@ -18,8 +18,8 @@ const AboutOurChurchSection = () => {
   const quickLinks = [
     { label: 'Spiritual Organisations', href: '/spiritual-organizations', icon: 'Cross', isInternal: true },
     { label: 'Theological Seminaries', href: '/theological-seminaries', icon: 'GraduationCap' },
-    { label: 'Publications', href: '/publications', icon: 'BookOpen' },
-    { label: 'Lectionary', href: '/lectionary', icon: 'BookOpen' },
+  { label: 'Publications', href: '/publications', icon: 'BookOpen', isInternal: true },
+  { label: 'Lectionary', href: '/lectionary', icon: 'BookOpen' },
     { label: 'Institutions', href: '/institutions', icon: 'Building' },
     { label: 'Downloads', href: '/downloads', icon: 'Download' },
     { label: 'Directory', href: '/directory', icon: 'Users' },

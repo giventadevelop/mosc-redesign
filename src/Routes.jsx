@@ -10,6 +10,7 @@ import ContactAndLocations from './pages/contact-and-locations';
 import NewsAndAnnouncements from './pages/news-and-announcements';
 import Homepage from './pages/homepage';
 import SpiritualOrganizations from './pages/spiritual-organizations';
+import Publications from './pages/publications';
 
 const Routes = () => {
   return (
@@ -26,6 +27,7 @@ const Routes = () => {
           <Route path="/news-and-announcements" element={<NewsAndAnnouncements />} />
           <Route path="/homepage" element={<Homepage />} />
           <Route path="/spiritual-organizations" element={<SpiritualOrganizations />} />
+          <Route path="/publications" element={<Publications />} />
           <Route path="*" element={<NotFound />} />
         </RouterRoutes>
       </ErrorBoundary>
