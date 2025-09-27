@@ -4,6 +4,7 @@ import Header from '../../components/ui/Header';
 import NavigationBreadcrumb from '../../components/ui/NavigationBreadcrumb';
 import HeroSection from './components/HeroSection';
 import WelcomeSection from './components/WelcomeSection';
+import AboutOurChurchSection from './components/AboutOurChurchSection';
 import AnnouncementsSection from './components/AnnouncementsSection';
 import QuickLinksSection from './components/QuickLinksSection';
 import PrayerTimesSection from './components/PrayerTimesSection';
@@ -23,10 +24,11 @@ const Homepage = () => {
       <div className="min-h-screen bg-background">
         <Header />
         <NavigationBreadcrumb />
-        
+
         <main>
           <HeroSection />
           <WelcomeSection />
+          <AboutOurChurchSection />
           <AnnouncementsSection />
           <QuickLinksSection />
           <PrayerTimesSection />
@@ -48,12 +50,12 @@ const Homepage = () => {
                   </p>
                 </div>
               </div>
-              
+
               <p className="font-body text-muted-foreground mb-4 max-w-2xl mx-auto">
-                Preserving the apostolic tradition established by St. Thomas the Apostle in India, 
+                Preserving the apostolic tradition established by St. Thomas the Apostle in India,
                 serving our community with faith, love, and spiritual guidance.
               </p>
-              
+
               <div className="border-t border-border pt-6">
                 <p className="font-caption text-sm text-muted-foreground">
                   © {new Date()?.getFullYear()} Malankara Orthodox Syrian Church. All rights reserved.

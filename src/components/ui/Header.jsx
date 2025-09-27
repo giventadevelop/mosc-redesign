@@ -11,6 +11,7 @@ const Header = () => {
     { label: 'About', path: '/about-church', icon: 'Church' },
     { label: 'Services', path: '/services-and-worship', icon: 'Calendar' },
     { label: 'Clergy', path: '/clergy-and-leadership', icon: 'Users' },
+    { label: 'Spiritual', path: '/spiritual-organizations', icon: 'Cross' },
     { label: 'News', path: '/news-and-announcements', icon: 'Newspaper' },
     { label: 'Contact', path: '/contact-and-locations', icon: 'MapPin' }
   ];
@@ -29,8 +30,8 @@ const Header = () => {
         {/* Main Header Content */}
         <div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
           {/* Logo */}
-          <Link 
-            to="/homepage" 
+          <Link
+            to="/homepage"
             className="flex items-center space-x-3 reverent-transition reverent-hover"
           >
             <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
@@ -52,10 +53,9 @@ const Header = () => {
               <Link
                 key={item?.path}
                 to={item?.path}
-                className={`flex items-center space-x-2 px-3 py-2 rounded-sacred text-sm font-body font-medium reverent-transition reverent-hover ${
-                  isActivePath(item?.path)
-                    ? 'text-primary bg-muted' :'text-foreground hover:text-primary hover:bg-muted/50'
-                }`}
+                className={`flex items-center space-x-2 px-3 py-2 rounded-sacred text-sm font-body font-medium reverent-transition reverent-hover ${isActivePath(item?.path)
+                    ? 'text-primary bg-muted' : 'text-foreground hover:text-primary hover:bg-muted/50'
+                  }`}
               >
                 <Icon name={item?.icon} size={16} />
                 <span>{item?.label}</span>
@@ -82,10 +82,9 @@ const Header = () => {
                   key={item?.path}
                   to={item?.path}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`flex items-center space-x-3 px-4 py-3 rounded-sacred text-base font-body font-medium reverent-transition ${
-                    isActivePath(item?.path)
-                      ? 'text-primary bg-muted' :'text-foreground hover:text-primary hover:bg-muted/50'
-                  }`}
+                  className={`flex items-center space-x-3 px-4 py-3 rounded-sacred text-base font-body font-medium reverent-transition ${isActivePath(item?.path)
+                      ? 'text-primary bg-muted' : 'text-foreground hover:text-primary hover:bg-muted/50'
+                    }`}
                 >
                   <Icon name={item?.icon} size={20} />
                   <span>{item?.label}</span>
